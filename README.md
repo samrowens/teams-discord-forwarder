@@ -15,14 +15,14 @@ A small Python service that listens for new messages in a Microsoft Teams channe
 
 ## Prerequisites
 
-- **Python** 3.10+ installed
+- **Python** 3.10+ installed (How to install later)
 - A **Discord server** where you can create a bot or channel webhook
 
 ---
 
 ## Getting Started
 
-# Make sure you have python installed on your editor (If Visual Studio Code) then
+# Make sure you have python installed
 
 ```Link to get python 3.10.11 https://www.python.org/downloads/release/python-31011/ ```
 
@@ -36,6 +36,7 @@ A small Python service that listens for new messages in a Microsoft Teams channe
 # If you would like to use the coding editor I use
 
 ```https://code.visualstudio.com/```
+
 
 ### 1. Clone this repository
 
