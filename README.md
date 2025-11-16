@@ -20,53 +20,55 @@ A small Python service that listens for new messages in a Microsoft Teams channe
 
 ---
 
-## Getting Started
+# Getting Started
 
-# Make sure you have python installed
+### Make sure you have python installed
 
 ```Link to get python 3.10.11 https://www.python.org/downloads/release/python-31011/ ```
 
  This is the version I'm using for the project, it doesn't have to be the exact same so long as it is greater than 3.10 and not less. 3.9 and under have some pretty major differences that may get in the way. 
 
-# Make sure you also have git installed
+### Make sure you also have git installed
 
 ```https://git-scm.com/install/windows```
 
 
-# If you would like to use the coding editor I use
+### If you would like to use the coding editor I use
 
 ```https://code.visualstudio.com/```
 
 
-### 1. Clone this repository
+# 1. Clone this repository
 
-# Navigate to a newly created folder for the project then
+### Navigate to a newly created folder for the project then
 
-``` Clone the project up in the top right via the green code button```
-``` Then Https tab, copy the link```
-``` git clone https://github.com/USERNAME/REPOSITORY.git```
+- Clone the project up in the top right via the green code button
+- Click the  Https tab, copy the link
+
+Then in your terminal do
+```git clone https://github.com/USERNAME/REPOSITORY.git```
 
 
 
-### 2. Create a virtual environment in your preffered editor
+# 2. Create a virtual environment in your preffered editor
 
 
  ```python -m venv .venv  ```
 
- # then if your terminal doesn't show (.venv)
+ ### then if your terminal doesn't show (.venv)
 
  ```.\.venv\Scripts\Activate.ps1```
 
 
 
- ### 3. Install Dependencies 
+ # 3. Install Dependencies 
 
  ```python -m pip install --upgrade pip```
 ```pip install discord.py```
 ```pip install python-dotenv```
 
 
-### 4. Create a .env file for environment variables
+# 4. Create a .env file for environment variables
 
  You will use your own generated keys for this file, though I will give you access to my sandbox discord for testing purposes. You will never have to use 'Production keys' during development. 
 
