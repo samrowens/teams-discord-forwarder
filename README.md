@@ -22,6 +22,8 @@ A small Python service that listens for new messages in a Microsoft Teams channe
 
 # Getting Started
 
+
+
 ### Make sure you have python installed
 
 ```Link to get python 3.10.11 https://www.python.org/downloads/release/python-31011/ ```
@@ -48,12 +50,18 @@ A small Python service that listens for new messages in a Microsoft Teams channe
 Then in your terminal do
 ```git clone https://github.com/USERNAME/REPOSITORY.git```
 
+# In terminal means the red box here 
+![alt text](image-1.png)
+ if it's not showing right click on the blue area and click open integrated terminal
 
 
 # 2. Create a virtual environment in your preffered editor
 
 
- ```python -m venv .venv  ```
+ ```python -m venv .venv  ``` 
+ or if that doesn't work
+
+ ```py -m venv .venv```
 
  ### then if your terminal doesn't show (.venv)
 
@@ -82,3 +90,6 @@ Then in your terminal do
 ```https://discord.com/developers/docs/quick-start/getting-started```
 
 ```https://discord.com/developers```
+
+
+
